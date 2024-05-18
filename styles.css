@@ -190,3 +190,18 @@ a {
     font-size: 18px;
     font-weight: 600;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 32px 80px;
+}
+
+.footer p{
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
