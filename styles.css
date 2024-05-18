@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
     margin: 0;
     display: flex;
@@ -24,6 +24,7 @@ body{
 
 p{
     color: #E5E7EB;
+    font-weight: 300;
     font-size: 18px;
     margin: 4px 0;
 }
@@ -87,7 +88,6 @@ a {
 .box2item{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -106,8 +106,31 @@ a {
 
 .box2 p{
     color: #1F2937;
+    font-weight: 400;
     margin-top: 8px;
     margin-bottom: 128px;
     max-width: 163px;
     text-align: center;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 330px;
+}
+
+.box3 p{
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quoter{
+    margin-left: auto;
+    margin-right: 0px;
+    font-weight: 700;
+    font-size: 24px;
 }
