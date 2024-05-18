@@ -134,3 +134,59 @@ a {
     font-weight: 700;
     font-size: 24px;
 }
+
+.box4{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.callbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 0;
+    width: 84%;
+}
+
+.callbox h2{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 48px;
+    padding-left: 128px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.callbox p{
+    padding-left: 128px;
+    padding-bottom: 48px;
+    padding-top: 0;
+    margin: 0;
+}
+
+.button2{
+    height: auto;
+    width: auto;
+    background-color: #3882F6;
+    margin: 32px 128px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #FFF;
+    border-width: 2px;
+    padding: 8px 32px;
+    text-wrap: nowrap;
+}
+
+.button2 a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
