@@ -105,8 +105,8 @@ a {
         margin: 20px auto;
     }
     .box1 img{
-        width: 90%;
-        height: 90%;
+        width: 90vw;
+        height: 45vw;
     }
     .p1{
         margin: 0;
