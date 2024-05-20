@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
     margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -76,7 +77,8 @@ a {
 .box2content{
     display: flex;
     justify-content: center;
-    gap: 48px;
+    flex-wrap: wrap;
+    gap: 4vw;
 }
 
 .box2{
@@ -93,6 +95,7 @@ a {
 
 .box2 img{
     width: 163px;
+    height: 163px;
     border: #3882F6 5px solid;
     border-radius: 36px;
 }
@@ -102,6 +105,7 @@ a {
     font-weight: 900;
     color: #1F2937;
     margin: 48px auto;
+    text-align: center;
 }
 
 .box2 p{
