@@ -209,7 +209,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin: 8%;
 }
 
 .callbox{
@@ -227,24 +227,26 @@ a {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
-    padding-top: 48px;
-    padding-left: 128px;
+    padding-top: 8%;
+    padding-left: 30%;
     padding-bottom: 0;
     margin: 0;
 }
 
 .callbox p{
-    padding-left: 128px;
-    padding-bottom: 48px;
+    padding-left: 30%;
+    padding-bottom: 8%;
     padding-top: 0;
     margin: 0;
+    color: #E5E7EB
 }
 
 .button2{
     height: auto;
     width: auto;
     background-color: #3882F6;
-    margin: 32px 128px;
+    margin: 32px auto;
+    margin-right: 15%;
     border-style: solid;
     border-radius: 8px;
     border-color: #FFF;
@@ -260,12 +262,32 @@ a {
     font-weight: 600;
 }
 
+@media (max-width: 600px){
+    .callbox h2{
+        font-size: 18px;
+        padding-left: 20%;
+    }
+    .callbox p{
+        padding-left: 20%;
+        font-size: 12px;
+    }
+    .button2{
+        padding: 5px 20px;
+        margin: 20px 5%;
+        text-wrap: wrap;
+    }
+    .button2 a{
+        font-size: 15px;
+    }
+
+}
+
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    padding: 32px 80px;
+    padding: 3% 0;
 }
 
 .footer p{
@@ -273,4 +295,11 @@ a {
     font-size: 18px;
     font-weight: 300;
     margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    .footer p{
+        font-size: 12px;
+    }
 }
