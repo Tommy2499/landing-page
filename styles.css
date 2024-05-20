@@ -42,12 +42,10 @@ body{
     .header{
         padding: 0 5%;
     }
-    .header h1{
-        font-size: 18px;
-    }
     .right-links{
         font-size: 15px;
-        padding-right: 10%;
+        padding-right: 8%;
+        gap: 8%;
     }
 
 }
@@ -69,12 +67,6 @@ body{
     font-weight: 900;
     color: #FFF;
     margin: 0;
-}
-
-@media (max-width: 600px) {
-    .box1left h2{
-        font-size: 24px;
-    }
 }
 
 
@@ -99,17 +91,24 @@ a {
 }
 
 @media (max-width: 600px) {
-    .p1{
-        font-size: 15px;
-    }
     .box1{
         padding: 7% 5%;
+        flex-direction: column;
+    }
+    .box1left{
+        text-align: center;
+    }
+    .box1left h2{
+        padding-bottom: 7%;
     }
     .button1{
-        font-size: 15px;
-        padding: 5px 20px;
-        margin-top: 20px;
-    
+        margin: 20px auto;
+    }
+    .box1 img{
+        width: 90%;
+    }
+    .p1{
+        margin: 0;
     }
 }
 
@@ -162,16 +161,14 @@ a {
 
 @media (max-width: 600px){
     .box2 h2{
-        font-size: 24px;
-    }
-    .box2 p{
-        font-size: 15px;
+        margin-top: 36px;
+        margin-bottom: 24px;
     }
     .box2 img{
-        width: 100px;
-        height: 100px;
-        border-radius: 24px;
-        border: #3882F6 2.8px solid;
+        width: 128px;
+        height: 128px;
+        border-radius: 30px;
+        border: #3882F6 3px solid;
     }
 
 }
@@ -191,17 +188,29 @@ a {
     font-weight: 300;
 }
 
-@media (max-width: 600px){
-    .box3 p{
-        font-size: 24px;
-    }
-}
-
 .quoter{
     margin-left: auto;
     margin-right: 0px;
     font-weight: 700;
     font-size: 24px;
+}
+
+@media (max-width: 600px){
+    .box3 p{
+        font-size: 24px;
+        margin: 10%;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+    .box3{
+        padding: 0;
+        margin: 0;
+    }
+    .quoter{
+        margin-bottom: 10%;
+        margin-right: 10%;
+        font-size: 16px;
+    }
 }
 
 .box4{
@@ -263,21 +272,21 @@ a {
 }
 
 @media (max-width: 600px){
+    .box4{
+        padding: 12% 0;
+        margin: 0;
+    }
     .callbox h2{
-        font-size: 18px;
         padding-left: 20%;
+        padding-bottom: 3%;
     }
     .callbox p{
         padding-left: 20%;
-        font-size: 12px;
     }
     .button2{
         padding: 5px 20px;
-        margin: 20px 5%;
+        margin: 20px 10%;
         text-wrap: wrap;
-    }
-    .button2 a{
-        font-size: 15px;
     }
 
 }
@@ -300,6 +309,6 @@ a {
 
 @media (max-width: 600px){
     .footer p{
-        font-size: 12px;
+        font-size: 15px;
     }
 }
